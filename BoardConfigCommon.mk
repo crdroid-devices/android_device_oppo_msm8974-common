@@ -95,6 +95,16 @@ BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
+<<<<<<< HEAD
+=======
+# Flags for modem (we still have an old modem)
+COMMON_GLOBAL_CFLAGS += -DUSE_RIL_VERSION_10
+COMMON_GLOBAL_CPPFLAGS += -DUSE_RIL_VERSION_10
+
+# Fonts
+EXTENDED_FONT_FOOTPRINT := true
+
+>>>>>>> parent of fe8ef1e... msm8974: Updates for new baseband release
 # Graphics
 MAX_EGL_CACHE_KEY_SIZE := 12*1024
 MAX_EGL_CACHE_SIZE := 2048*1024
