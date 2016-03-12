@@ -8,7 +8,6 @@ ro.opengles.version=196608
 # Media
 af.fast_track_multiplier=1
 
-audio.deep_buffer.media=true
 persist.audio.fluence.voicecall=true
 ro.qc.sdk.audio.fluencetype=fluence
 use.voice.path.for.pcm.voip=true
@@ -19,7 +18,6 @@ audio.offload.multiple.enabled=false
 audio.offload.gapless.enabled=true
 audio.offload.pcm.16bit.enable=true
 audio.offload.pcm.24bit.enable=true
-av.streaming.offload.enable=true
 
 mm.enable.smoothstreaming=true
 media.aac_51_output_enabled=true
